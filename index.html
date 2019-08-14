@@ -12,14 +12,24 @@
     <h1>Amadon Marketplace!!!!</h1>
     <form id="userInfo">
       <div class="form-group">
-        <label for="userName">User Name: </label>
-        <input id="userName" class="form-control" type="text">
+        <label for="firstName">First Name: </label>
+        <input id="firstName" class="form-control" type="text">
       </div>
       <div class="form-group">
-        <label for="userName">Address: </label>
-        <input id="userName" class="form-control" type="text">
+        <label for="lasttName">Last Name: </label>
+        <input id="lastName" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="userAddress">Shipping address: </label>
+        <input id="userAddress" class="form-control" type="text">
       </div>
       <button type="button" name="button">Click and Order!</button>
     </form>
+    <div class="container" id="receipt">
+      <p>Receiver: <span class="firstName"></span>  <span class="lasttName"></span></p>
+      <p>Address: <span class="userAddress"></span></p>
+      <p>Thank you <span class="firstName"></span>  <span class="lasttName"></span> for purchasing our books.</p>
+      <p>If the info above is incorrect, please call: 111-111-1111</p>
+    </div>
   </body>
 </html>
